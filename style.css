@@ -1,0 +1,88 @@
+body{
+    background-color: grey;
+}
+.whole{
+    text-align: center;
+    width: 450px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('https://i.pinimg.com/736x/08/08/fb/0808fb305aa8d90cb6379305062089ee.jpg');
+   
+}
+nav{
+    background-color: black;
+    height: 70px;
+    background: linear-gradient(to right, rgba(250, 152, 250, 0) 0%, rgba(95, 169, 191, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(44, 51, 54) 60%, rgb(39, 57, 85) 61%);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+   
+
+}
+nav h1{
+   color: whitesmoke;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.display input{
+    height: 10vh;
+    background-color: rgba(15, 128, 204, 0.458);
+    border: solid 2px black;
+    width: 440px;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+.nums button{
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    border-radius: 10px;
+    background-color:rgb(111, 88, 236);
+    transition: ease-in-out;
+    color: rgb(67, 27, 27);
+    border: solid whitesmoke;
+    
+}
+.nums button:hover{
+    box-shadow: 8px 8px black;
+    box-sizing: 100px;
+}
+   
+.nums{
+    margin: 10px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nums button.eq{
+  width: 90vw;
+  color: rgb(67, 27, 27);
+    
+}
+.nums .AC{
+    background-color:red;
+    color: rgb(67, 27, 27);
+}
+.nums .op{
+    background-color:rgb(50, 255, 47);
+    
+    color: rgb(67, 27, 27);
+}
+@media screen and (min-width: 480px) {
+    .whole{
+        margin: auto;
+        border-radius: 20px;
+        border-radius: 5px;
+        
+    }
+    .display input{
+        width: 430px;
+    }
+  }
